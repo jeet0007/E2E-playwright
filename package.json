@@ -1,0 +1,16 @@
+{
+  "name": "e2e-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.34.3",
+    "form-data": "^4.0.0"
+  }
+}
